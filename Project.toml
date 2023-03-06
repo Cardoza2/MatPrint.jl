@@ -2,3 +2,6 @@ name = "MatPrint"
 uuid = "85d36bf2-e07f-48b7-87f6-5d44c8fd5714"
 authors = ["cardoza2 <adam@cardoza.one>"]
 version = "0.1.0"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
