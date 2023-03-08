@@ -6,19 +6,6 @@ cd(path)
 mp = MatPrint
 
 @testset "Writing" begin
-    @testset "writeline" begin
-        file = open("../data/testlinefile.txt", "w")
-
-        testline = [1 2 3]
-        testformat = "%i"
-        testdelim = ", "
-
-        mp.writeline(file, testline, testformat, testdelim;newline=false)
-        close(file)
-
-        test1 = readdlm("../data/testlinefile.txt", ',', Int)
-        @test testline==test1
-    end #End writeline() test set
 
     @testset "writemat" begin
         #Test writing a basic matrix

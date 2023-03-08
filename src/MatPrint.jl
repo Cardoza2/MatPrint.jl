@@ -1,6 +1,6 @@
 module MatPrint
 
-using Printf
+using Format
 
 #Todo: Add capability to write to io.  
 #Todo: Potentially add reading capabilities, but DelimitedFiles should suffice.
