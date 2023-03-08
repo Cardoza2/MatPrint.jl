@@ -14,3 +14,7 @@ testformat = "%i"
         
 writemat(file, testmat; format=testformat)
 ```
+
+Here is a handy website that has formatting strings: https://cplusplus.com/reference/cstdio/printf/
+
+Note: Because of the way that I'm writing to file, it takes quite a bit of time in order to print to file. 
